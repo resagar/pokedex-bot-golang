@@ -37,7 +37,7 @@ func newTemplateMenOne(poke pokemon.Pokemon) string{
 }
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("1358913993:AAGRL5Crdwjkmk1DDJYaHB94ErSkGq-aplI")
+	bot, err := tgbotapi.NewBotAPI()
 	if err != nil {
 		log.Panic(err)
 	}
